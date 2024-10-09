@@ -1,1 +1,2 @@
-#CoVulPecker
+# CoVulPecker frontend 
+# CoVulPecker backend
