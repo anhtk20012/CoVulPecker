@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2f; /* Nền tối với sắc xanh tím than */
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard {
+    background-color: #2b2b3d; /* Màu nền cho khung chứa, nhẹ nhàng hơn */
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Đổ bóng để nổi bật hơn */
+}
+
+.title {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #b3b3b3;
+}
+
+.status {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.status-null {
+    color: #bbbbbb;
+    font-style: italic;
+}
+
+.lines-text {
+    font-size: 1.1rem;
+    color: #76c7c0; /* Màu xanh nhạt cho chữ LINE */
+    margin: 0;
+}
+
+.vulnerable {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6b6b; /* Màu đỏ nhẹ nhàng hơn */
+    margin: 10px 0;
+}
+
+.vulnerable-icon {
+    margin-right: 8px;
+}
+
+.line-detail {
+    margin-bottom: 10px;
+}
+
+.line-text {
+    font-size: 1.1rem;
+    color: #76c7c0; /* Sử dụng cùng màu với LINES để đồng bộ */
+    margin: 0;
+}
+
+.progress-bar {
+    display: flex;
+    height: 20px;
+    background-color: #353547; /* Nền cho thanh tiến trình */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.red {
+    background-color: #f56565; /* Màu đỏ nhạt cho thanh tiến trình */
+}
+
+.blue {
+    background-color: #63b3ed; /* Màu xanh dương nhạt cho thanh tiến trình */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

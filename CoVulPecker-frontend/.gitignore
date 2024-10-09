@@ -1,0 +1,12 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+note.txt
+package-lock.json
+.vscode-test.mjs
+src/test
+CHANGELOG.md
+vsc-extension-quickstart.md
+webviews/components/Sidebar_test.svelte
